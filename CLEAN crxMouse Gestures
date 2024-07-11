@@ -1,0 +1,271 @@
+{
+  "cfgver": 2.3,
+  "drag": {
+    "ddirect": true,
+    "ddirectcolor": "5E6A88",
+    "ddirectopa": 0.9,
+    "dholdkey": "none",
+    "dragimage": true,
+    "draginput": false,
+    "draglink": true,
+    "dragtext": true,
+    "dragui": true,
+    "dstroke": true,
+    "dstrokecolor": "4E1485",
+    "dstrokeopa": 0.8,
+    "dstrokewidth": 5,
+    "dtooltip": true,
+    "dtooltipcolor": "120310",
+    "dtooltipopa": 0.9,
+    "dtooltipwidth": 18,
+    "image": [
+      {
+        "action": "I_search",
+        "direct": "L",
+        "moreDes": "Use %name to search the image",
+        "moreIsearch": "sgoogleimage",
+        "morePinned": "unpinned",
+        "morePosition": "chrome",
+        "moreTarget": "newfront"
+      },
+      {
+        "action": "I_open",
+        "direct": "R",
+        "moreDes": "Open image in new tab(New tab & Front)",
+        "morePinned": "unpinned",
+        "morePosition": "chrome",
+        "moreTarget": "newfront"
+      },
+      {
+        "action": "I_save",
+        "direct": "D"
+      }
+    ],
+    "imgfirst": "none",
+    "imgfirstcheck": false,
+    "link": [
+      {
+        "action": "L_copyuser",
+        "direct": "D",
+        "moreCopystyle": "[%title](%url)",
+        "moreDes": "copy the title and website with a custom format",
+        "moreName": "tes"
+      },
+      {
+        "action": "L_copyurl",
+        "direct": "U"
+      },
+      {
+        "action": "L_open",
+        "direct": "R",
+        "moreDes": "Open link in new tab",
+        "morePinned": "unpinned",
+        "morePosition": "chrome",
+        "moreTarget": "newback"
+      },
+      {
+        "action": "L_open",
+        "direct": "L",
+        "moreDes": "Open link in new tab",
+        "morePinned": "unpinned",
+        "morePosition": "chrome",
+        "moreTarget": "newfront"
+      },
+      {
+        "action": "L_copyaslink",
+        "direct": "UD"
+      }
+    ],
+    "setdragurl": true,
+    "text": [
+      {
+        "action": "T_search",
+        "direct": "L",
+        "moreDes": "Use %name to search \"%s\"(New tab & Background)",
+        "morePinned": "unpinned",
+        "morePosition": "chrome",
+        "moreTarget": "newback",
+        "moreTsearch": "sgoogle"
+      },
+      {
+        "action": "T_search",
+        "direct": "R",
+        "moreDes": "Use %name to search \"%s\"(New tab & Front)",
+        "morePinned": "unpinned",
+        "morePosition": "chrome",
+        "moreTarget": "newfront",
+        "moreTsearch": "sgoogle"
+      },
+      {
+        "action": "T_copytext",
+        "direct": "D"
+      }
+    ]
+  },
+  "extid": "mjidkpedjlfnanainpdfnedkdlacidla",
+  "gesture": {
+    "direct": true,
+    "directcolor": "5E6A88",
+    "directopa": 0.9,
+    "geskey": "right",
+    "gesture": [
+      {
+        "action": "G_lefttab",
+        "direct": "L"
+      },
+      {
+        "action": "G_righttab",
+        "direct": "R"
+      },
+      {
+        "action": "G_copyurl",
+        "direct": "U"
+      },
+      {
+        "action": "G_copyuser",
+        "direct": "D",
+        "moreCopystyle": "[%title](%url)",
+        "moreDes": "copy the title and URL with custom format",
+        "moreName": "Notion"
+      },
+      {
+        "action": "G_reclosedtab",
+        "direct": "LU",
+        "moreDes": "Reopen closed tab",
+        "morePinned": "unpinned",
+        "morePosition": "chrome",
+        "moreTarget": "newfront"
+      },
+      {
+        "action": "G_bottom",
+        "direct": "RD"
+      },
+      {
+        "action": "G_top",
+        "direct": "RU"
+      },
+      {
+        "action": "G_reload",
+        "direct": "UD"
+      },
+      {
+        "action": "G_crxsettings",
+        "direct": "RDLU",
+        "moreDes": "CrxMouse settings",
+        "morePinned": "unpinned",
+        "morePosition": "chrome",
+        "moreTarget": "newfront"
+      },
+      {
+        "action": "G_close",
+        "direct": "RL",
+        "moreCloseopts": "close",
+        "moreClosesel": "chrome",
+        "moreCloseurl": "chrome://newtab/"
+      },
+      {
+        "action": "G_closeothers",
+        "direct": "RLRL"
+      },
+      {
+        "action": "G_closerighttabs",
+        "direct": "RLR"
+      },
+      {
+        "action": "G_go",
+        "direct": "UR"
+      },
+      {
+        "action": "G_back",
+        "direct": "UL"
+      }
+    ],
+    "gestureui": true,
+    "gholdkey": "alt",
+    "stenable": false,
+    "stroke": true,
+    "strokecolor": "4E1485",
+    "strokeopa": 0.8,
+    "strokewidth": 5,
+    "tooltip": true,
+    "tooltipcolor": "120310",
+    "tooltipopa": 0.9,
+    "tooltipwidth": 18
+  },
+  "normal": {
+    "autocancel": false,
+    "autocancelvalue": 2,
+    "backgroundtab": false,
+    "cancelcontextmenu": true,
+    "capturetype": "jpeg",
+    "dbclicktime": 600,
+    "drag": true,
+    "gesture": true,
+    "jpegquality": 100,
+    "lasttab": false,
+    "minilength": 10,
+    "newtabposition": "chrome",
+    "scroll": false,
+    "scrolleffects": true,
+    "scrollgesture": false,
+    "strokegesture": false
+  },
+  "scroll": {
+    "scrollaccele": 1,
+    "scrollspeed": 3,
+    "smooth": false
+  },
+  "scrollgesture": {
+    "sgsleft": [
+      {
+        "action": "G_top"
+      },
+      {
+        "action": "G_bottom"
+      }
+    ],
+    "sgsleftenable": true,
+    "sgsright": [
+      {
+        "action": "G_top"
+      },
+      {
+        "action": "G_bottom"
+      }
+    ],
+    "sgsrightenable": false,
+    "tablist": true,
+    "tablistkey": "right"
+  },
+  "strokegesture": {
+    "strleft": [
+      {
+        "action": "G_none"
+      },
+      {
+        "action": "G_righttab"
+      }
+    ],
+    "strleftenable": true,
+    "strmiddle": [
+      {
+        "action": "G_lefttab"
+      },
+      {
+        "action": "G_righttab"
+      }
+    ],
+    "strmiddleenable": false,
+    "strpress": "up",
+    "strright": [
+      {
+        "action": "G_lefttab"
+      },
+      {
+        "action": "G_none"
+      }
+    ],
+    "strrightenable": true
+  },
+  "sync": true
+}
